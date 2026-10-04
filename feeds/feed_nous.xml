@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Nous Research Blog</title>
+    <link>https://nousresearch.com/blog</link>
+    <description>Open-source frontier models, Hermes, Psyche, and distributed training research</description>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_nous.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Oct 2026 03:56:48 +0000</lastBuildDate>
+    <item>
+      <title>Refactoring Hermes with 1,393 agents</title>
+      <link>https://nousresearch.com/refactoring-hermes-with-1393-agents</link>
+      <description>Hermes Agent autonomously plowed through about a million lines of unglamorous cleanup, freeing up Teknium and team to continue pushing features to users....</description>
+      <guid isPermaLink="false">https://nousresearch.com/refactoring-hermes-with-1393-agents</guid>
+      <pubDate>Tue, 15 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lighthouse Attention</title>
+      <link>https://nousresearch.com/lighthouse-attention</link>
+      <description>A selection-based hierarchical attention ~17x faster than standard attention at 512K context on a single B200....</description>
+      <guid isPermaLink="false">https://nousresearch.com/lighthouse-attention</guid>
+      <pubDate>Tue, 12 May 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient pretraining with token superposition</title>
+      <link>https://nousresearch.com/token-superposition</link>
+      <description>Token Superposition Training (TST) delivers 2-3x wall-clock pretraining speedups at fixed FLOPs....</description>
+      <guid isPermaLink="false">https://nousresearch.com/token-superposition</guid>
+      <pubDate>Sun, 01 Feb 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Field Notes on Scaling MoE Expert Parallelism with DeepEP</title>
+      <link>https://nousresearch.com/moe-scaling-field-notes</link>
+      <description>Documenting the journey of scaling expert parallelism to achieve high-throughput pretraining....</description>
+      <guid isPermaLink="false">https://nousresearch.com/moe-scaling-field-notes</guid>
+      <pubDate>Tue, 20 Jan 2026 16:01:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>NousCoder-14B: A Competitive Olympiad Programming Model</title>
+      <link>https://nousresearch.com/nouscoder-14b-a-competitive-olympiad-programming-model</link>
+      <description>We introduce NousCoder-14B, a competitive olympiad programming model post-trained on Qwen3-14B via reinforcement learning. The full stack is released publicly: model weights, open RL environment + eval harness, and @wandb logs; we also document the pipelined verification setup and parallelization...</description>
+      <guid isPermaLink="false">https://nousresearch.com/nouscoder-14b-a-competitive-olympiad-programming-model</guid>
+      <pubDate>Tue, 06 Jan 2026 18:48:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Hermes 4.3: Local Intelligence Globally Trained</title>
+      <link>https://nousresearch.com/introducing-hermes-4-3</link>
+      <description>Today we’re releasing Hermes 4.3 (🤗 Hugging Face), an update to our flagship Hermes series of models. Hermes 4.3 was trained with an extended context length (up to 512K) and nearly matches (and in some cases exceeds) the performance...</description>
+      <guid isPermaLink="false">https://nousresearch.com/introducing-hermes-4-3</guid>
+      <pubDate>Mon, 01 Dec 2025 19:56:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>tinker-atropos: An Integration Layer for the Tinker API and Atropos RL Framework</title>
+      <link>https://nousresearch.com/tinker-atropos-blog</link>
+      <description>The team at Nous Research proudly presents tinker-atropos, our integration layer between the Tinker API and our Atropos reinforcement learning (RL) framework. We designed Atropos to be a fully decoupled environment service, separating concerns around trainer management, rollout collection, and...</description>
+      <guid isPermaLink="false">https://nousresearch.com/tinker-atropos-blog</guid>
+      <pubDate>Tue, 18 Nov 2025 01:31:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Next Phase of Psyche</title>
+      <link>https://nousresearch.com/the-next-phase-of-psyche</link>
+      <description>Psyche is an open infrastructure that democratizes AI development by decentralizing training across underutilized hardware. Building on DisTrO and its predecessor DeMo, Psyche reduces data transfer by several orders of magnitude, making distributed training practical. Coordination happens on the Solana...</description>
+      <guid isPermaLink="false">https://nousresearch.com/the-next-phase-of-psyche</guid>
+      <pubDate>Mon, 29 Sep 2025 15:58:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring Thinking Efficiency in Reasoning Models: The Missing Benchmark</title>
+      <link>https://nousresearch.com/measuring-thinking-efficiency-in-reasoning-models-the-missing-benchmark</link>
+      <description>Large Reasoning Models (LRMs) employ a novel paradigm known as test-time scaling, leveraging reinforcement learning to teach the models to generate extended chains of thought (CoT) during reasoning tasks. This enhances their problem-solving capabilities beyond what their base models could...</description>
+      <guid isPermaLink="false">https://nousresearch.com/measuring-thinking-efficiency-in-reasoning-models-the-missing-benchmark</guid>
+      <pubDate>Thu, 14 Aug 2025 18:07:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratizing AI: The Psyche Network Architecture</title>
+      <link>https://nousresearch.com/nous-psyche</link>
+      <description>Psyche is an open infrastructure that democratizes AI development by decentralizing training across underutilized hardware. Building on DisTrO and its predecessor DeMo, Psyche reduces data transfer by several orders of magnitude, making distributed training practical. Coordination happens on the Solana...</description>
+      <guid isPermaLink="false">https://nousresearch.com/nous-psyche</guid>
+      <pubDate>Wed, 14 May 2025 18:58:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Atropos</title>
+      <link>https://nousresearch.com/introducing-atropos</link>
+      <description>Atropos is designed to reliably coordinate generation tasks across potentially thousands of distributed workers. It interfaces seamlessly with standard inference APIs for straightforward integration....</description>
+      <guid isPermaLink="false">https://nousresearch.com/introducing-atropos</guid>
+      <pubDate>Tue, 29 Apr 2025 02:39:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Forge Reasoning API Beta and Nous Chat: An Evolution in LLM Inference</title>
+      <link>https://nousresearch.com/introducing-the-forge-reasoning-api-beta-and-nous-chat-an-evolution-in-llm-inference</link>
+      <description>At Nous Research we’re launching two new projects: the Forge Reasoning API Beta and Nous Chat, a simple chat platform featuring the Hermes language model. The Forge Reasoning API contains some of our advancements in inference-time AI research, building on...</description>
+      <guid isPermaLink="false">https://nousresearch.com/introducing-the-forge-reasoning-api-beta-and-nous-chat-an-evolution-in-llm-inference</guid>
+      <pubDate>Fri, 08 Nov 2024 15:59:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Setting Your Pet Rock Free.</title>
+      <link>https://nousresearch.com/setting-your-pet-rock-free</link>
+      <description>A social experiment on how to deploy provably, fully-autonomous thinking sand. The quest for truly autonomous AI agents faces a fundamental challenge: how can researchers prove that an AI is truly autonomous, with no human pulling the strings...</description>
+      <guid isPermaLink="false">https://nousresearch.com/setting-your-pet-rock-free</guid>
+      <pubDate>Tue, 29 Oct 2024 22:54:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Black Box to Glass House: The Imperative For Transparent AI Development</title>
+      <link>https://nousresearch.com/from-black-box-to-glass-house-the-imperative-for-transparent-ai-development</link>
+      <description>The world is abuzz with talk of AI, a technology that has become an integral part of life for many. However, as AI approaches at breakneck speed, it’s natural that people are scared. This fear is understandable, but it’s also...</description>
+      <guid isPermaLink="false">https://nousresearch.com/from-black-box-to-glass-house-the-imperative-for-transparent-ai-development</guid>
+      <pubDate>Mon, 21 Oct 2024 16:01:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Freedom at the Frontier: Hermes 3</title>
+      <link>https://nousresearch.com/freedom-at-the-frontier-hermes-3</link>
+      <description>Closed-source, “frontier” models today lack flexibility and adaptability. Many refuse to answer simple questions, hallucinate an authority’s form of morality, or require convoluted prompts in order to trigger a coherent answer. It’s impossible to nudge these models towards individual personalization,...</description>
+      <guid isPermaLink="false">https://nousresearch.com/freedom-at-the-frontier-hermes-3</guid>
+      <pubDate>Thu, 15 Aug 2024 03:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Instruct Monomyth: why base models matter</title>
+      <link>https://nousresearch.com/the-instruct-monomyth</link>
+      <description>There is a deep, twisty labyrinth buried under a mountain of language, of symbol manipulation, and semantic nets. Its roots reach down deep into the Earth, absorbing the minutia of current thought, the limitations of logic, the constrained realm of...</description>
+      <guid isPermaLink="false">https://nousresearch.com/the-instruct-monomyth</guid>
+      <pubDate>Mon, 29 Jul 2024 21:52:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
+      <link>https://nousresearch.com/neuron-steering</link>
+      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
+      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DSJJJJ: Simulacra in the Stupor of Becoming</title>
+      <link>https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</link>
+      <description>Desideratic AI (DSJJJJ) is a philosophical movement focused on creating AI systems using concepts traditionally found in monism, mereology, and philology. Desidera aim to create AI that can act as better versions of themselves by reflecting upon their own nature...</description>
+      <guid isPermaLink="false">https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</guid>
+      <pubDate>Sat, 16 Mar 2024 03:29:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
+      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
+      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
+      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

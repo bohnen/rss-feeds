@@ -59,6 +59,12 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [Windsurf Changelog](https://windsurf.com/changelog)                                              | [feed_windsurf_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml)           |
 | [Windsurf Next Changelog](https://windsurf.com/changelog/windsurf-next)                           | [feed_windsurf_next_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml) |
 | [xAI News](https://x.ai/news)                                                                     | [feed_xainews.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml)                                 |
+| [DeepSeek News](deepseek_news) | [feed_deepseek.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_deepseek.xml) |
+| [MiniMax News](MiniMax News) | [feed_minimax.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_minimax.xml) |
+| [Moonshot AI / Kimi Blog](Moonshot AI / Kimi Blog) | [feed_moonshot.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_moonshot.xml) |
+| [Nous Research Blog](Nous Research Blog) | [feed_nous.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_nous.xml) |
+| [Qwen Blog](Qwen Blog) | [feed_qwen.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_qwen.xml) |
+| [Z.ai Release Notes](Z.ai Release Notes) | [feed_zai.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_zai.xml) |
 
 ### Planned <!-- omit in toc -->
 

@@ -181,3 +181,33 @@ feeds:
     script: xainews_blog.py
     type: selenium
     blog_url: https://x.ai/news
+
+  deepseek:
+    script: deepseek_blog.py
+    type: requests
+    blog_url: https://api-docs.deepseek.com/news/
+
+  minimax:
+    script: minimax_blog.py
+    type: requests
+    blog_url: https://www.minimax.io/news
+
+  moonshot:
+    script: moonshot_blog.py
+    type: requests
+    blog_url: https://www.kimi.com/en/blog/
+
+  nous:
+    script: nous_blog.py
+    type: requests
+    blog_url: https://nousresearch.com/blog
+
+  qwen:
+    script: qwen_blog.py
+    type: requests
+    blog_url: https://qwen.ai/blog
+
+  zai:
+    script: zai_blog.py
+    type: requests
+    blog_url: https://docs.z.ai/release-notes/new-released

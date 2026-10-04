@@ -312,3 +312,92 @@ clean_feeds: ## Clean generated RSS feed files
 	$(call print_warning,Removing generated RSS feeds)
 	$(Q)rm -rf feeds/*.xml
 	$(call print_success,RSS feeds removed)
+
+.PHONY: feeds_deepseek
+feeds_deepseek: ## Generate RSS feed for DeepSeek News
+	$(call check_venv)
+	$(call print_info,Generating DeepSeek News feed)
+	$(Q)uv run feed_generators/deepseek_blog.py
+	$(call print_success,DeepSeek News feed generated)
+
+.PHONY: feeds_deepseek_full
+feeds_deepseek_full: ## Generate RSS feed for DeepSeek News (full reset)
+	$(call check_venv)
+	$(call print_info,Generating DeepSeek News feed - FULL RESET)
+	$(Q)uv run feed_generators/deepseek_blog.py --full
+	$(call print_success,DeepSeek News feed generated - full reset)
+
+
+.PHONY: feeds_minimax
+feeds_minimax: ## Generate RSS feed for MiniMax News
+	$(call check_venv)
+	$(call print_info,Generating MiniMax News feed)
+	$(Q)uv run feed_generators/minimax_blog.py
+	$(call print_success,MiniMax News feed generated)
+
+.PHONY: feeds_minimax_full
+feeds_minimax_full: ## Generate RSS feed for MiniMax News (full reset)
+	$(call check_venv)
+	$(call print_info,Generating MiniMax News feed - FULL RESET)
+	$(Q)uv run feed_generators/minimax_blog.py --full
+	$(call print_success,MiniMax News feed generated - full reset)
+
+
+.PHONY: feeds_moonshot
+feeds_moonshot: ## Generate RSS feed for Moonshot AI / Kimi Blog
+	$(call check_venv)
+	$(call print_info,Generating Moonshot AI / Kimi Blog feed)
+	$(Q)uv run feed_generators/moonshot_blog.py
+	$(call print_success,Moonshot AI / Kimi Blog feed generated)
+
+.PHONY: feeds_moonshot_full
+feeds_moonshot_full: ## Generate RSS feed for Moonshot AI / Kimi Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Moonshot AI / Kimi Blog feed - FULL RESET)
+	$(Q)uv run feed_generators/moonshot_blog.py --full
+	$(call print_success,Moonshot AI / Kimi Blog feed generated - full reset)
+
+
+.PHONY: feeds_nous
+feeds_nous: ## Generate RSS feed for Nous Research Blog
+	$(call check_venv)
+	$(call print_info,Generating Nous Research Blog feed)
+	$(Q)uv run feed_generators/nous_blog.py
+	$(call print_success,Nous Research Blog feed generated)
+
+.PHONY: feeds_nous_full
+feeds_nous_full: ## Generate RSS feed for Nous Research Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Nous Research Blog feed - FULL RESET)
+	$(Q)uv run feed_generators/nous_blog.py --full
+	$(call print_success,Nous Research Blog feed generated - full reset)
+
+
+.PHONY: feeds_qwen
+feeds_qwen: ## Generate RSS feed for Qwen Blog
+	$(call check_venv)
+	$(call print_info,Generating Qwen Blog feed)
+	$(Q)uv run feed_generators/qwen_blog.py
+	$(call print_success,Qwen Blog feed generated)
+
+.PHONY: feeds_qwen_full
+feeds_qwen_full: ## Generate RSS feed for Qwen Blog (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Qwen Blog feed - FULL RESET)
+	$(Q)uv run feed_generators/qwen_blog.py --full
+	$(call print_success,Qwen Blog feed generated - full reset)
+
+
+.PHONY: feeds_zai
+feeds_zai: ## Generate RSS feed for Z.ai Release Notes
+	$(call check_venv)
+	$(call print_info,Generating Z.ai Release Notes feed)
+	$(Q)uv run feed_generators/zai_blog.py
+	$(call print_success,Z.ai Release Notes feed generated)
+
+.PHONY: feeds_zai_full
+feeds_zai_full: ## Generate RSS feed for Z.ai Release Notes (full reset)
+	$(call check_venv)
+	$(call print_info,Generating Z.ai Release Notes feed - FULL RESET)
+	$(Q)uv run feed_generators/zai_blog.py --full
+	$(call print_success,Z.ai Release Notes feed generated - full reset)
