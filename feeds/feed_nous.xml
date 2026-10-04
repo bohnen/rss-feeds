@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 04:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 04:27:18 +0000</lastBuildDate>
     <item>
       <title>Refactoring Hermes with 1,393 agents</title>
       <link>https://nousresearch.com/refactoring-hermes-with-1393-agents</link>
@@ -115,13 +115,6 @@
       <pubDate>Thu, 15 Aug 2024 03:15:22 +0000</pubDate>
     </item>
     <item>
-      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
-      <link>https://nousresearch.com/neuron-steering</link>
-      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
-      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
-      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Instruct Monomyth: why base models matter</title>
       <link>https://nousresearch.com/the-instruct-monomyth</link>
       <description>There is a deep, twisty labyrinth buried under a mountain of language, of symbol manipulation, and semantic nets. Its roots reach down deep into the Earth, absorbing the minutia of current thought, the limitations of logic, the constrained realm of...</description>
@@ -133,7 +126,14 @@
       <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
       <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
       <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
-      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
+      <link>https://nousresearch.com/neuron-steering</link>
+      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
+      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DSJJJJ: Simulacra in the Stupor of Becoming</title>
