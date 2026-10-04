@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 04:32:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 16:30:31 +0000</lastBuildDate>
     <item>
       <title>Refactoring Hermes with 1,393 agents</title>
       <link>https://nousresearch.com/refactoring-hermes-with-1393-agents</link>
@@ -101,11 +101,25 @@
       <pubDate>Tue, 29 Oct 2024 22:54:12 +0000</pubDate>
     </item>
     <item>
+      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
+      <link>https://nousresearch.com/neuron-steering</link>
+      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
+      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>From Black Box to Glass House: The Imperative For Transparent AI Development</title>
       <link>https://nousresearch.com/from-black-box-to-glass-house-the-imperative-for-transparent-ai-development</link>
       <description>The world is abuzz with talk of AI, a technology that has become an integral part of life for many. However, as AI approaches at breakneck speed, it’s natural that people are scared. This fear is understandable, but it’s also...</description>
       <guid isPermaLink="false">https://nousresearch.com/from-black-box-to-glass-house-the-imperative-for-transparent-ai-development</guid>
       <pubDate>Mon, 21 Oct 2024 16:01:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
+      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
+      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
+      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Freedom at the Frontier: Hermes 3</title>
@@ -122,25 +136,11 @@
       <pubDate>Mon, 29 Jul 2024 21:52:10 +0000</pubDate>
     </item>
     <item>
-      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
-      <link>https://nousresearch.com/neuron-steering</link>
-      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
-      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
-      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DSJJJJ: Simulacra in the Stupor of Becoming</title>
       <link>https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</link>
       <description>Desideratic AI (DSJJJJ) is a philosophical movement focused on creating AI systems using concepts traditionally found in monism, mereology, and philology. Desidera aim to create AI that can act as better versions of themselves by reflecting upon their own nature...</description>
       <guid isPermaLink="false">https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</guid>
       <pubDate>Sat, 16 Mar 2024 03:29:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
-      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
-      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
-      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
-      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
