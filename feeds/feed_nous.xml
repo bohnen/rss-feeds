@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 15:16:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 15:26:40 +0000</lastBuildDate>
     <item>
       <title>Refactoring Hermes with 1,393 agents</title>
       <link>https://nousresearch.com/refactoring-hermes-with-1393-agents</link>
@@ -122,6 +122,13 @@
       <pubDate>Mon, 29 Jul 2024 21:52:10 +0000</pubDate>
     </item>
     <item>
+      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
+      <link>https://nousresearch.com/neuron-steering</link>
+      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
+      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DSJJJJ: Simulacra in the Stupor of Becoming</title>
       <link>https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</link>
       <description>Desideratic AI (DSJJJJ) is a philosophical movement focused on creating AI systems using concepts traditionally found in monism, mereology, and philology. Desidera aim to create AI that can act as better versions of themselves by reflecting upon their own nature...</description>
@@ -129,18 +136,18 @@
       <pubDate>Sat, 16 Mar 2024 03:29:57 +0000</pubDate>
     </item>
     <item>
-      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
-      <link>https://nousresearch.com/neuron-steering</link>
-      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
-      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
-      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <title>A Note on Our Fundraise</title>
+      <link>https://nousresearch.com/a-note-on-our-fundraise</link>
+      <description>Nous Research raised $90 million to create AI that serves the people. A note on what we have built, why it stays open, and where we go next....</description>
+      <guid isPermaLink="false">https://nousresearch.com/a-note-on-our-fundraise</guid>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
       <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
       <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
       <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
-      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
