@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 15:15:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:19:08 +0000</lastBuildDate>
     <item>
       <title>A Note on Our Fundraise</title>
       <link>https://nousresearch.com/a-note-on-our-fundraise</link>
@@ -101,13 +101,6 @@
       <pubDate>Fri, 08 Nov 2024 15:59:06 +0000</pubDate>
     </item>
     <item>
-      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
-      <link>https://nousresearch.com/neuron-steering</link>
-      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
-      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Setting Your Pet Rock Free.</title>
       <link>https://nousresearch.com/setting-your-pet-rock-free</link>
       <description>A social experiment on how to deploy provably, fully-autonomous thinking sand. The quest for truly autonomous AI agents faces a fundamental challenge: how can researchers prove that an AI is truly autonomous, with no human pulling the strings...</description>
@@ -120,6 +113,13 @@
       <description>The world is abuzz with talk of AI, a technology that has become an integral part of life for many. However, as AI approaches at breakneck speed, it’s natural that people are scared. This fear is understandable, but it’s also...</description>
       <guid isPermaLink="false">https://nousresearch.com/from-black-box-to-glass-house-the-imperative-for-transparent-ai-development</guid>
       <pubDate>Mon, 21 Oct 2024 16:01:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
+      <link>https://nousresearch.com/neuron-steering</link>
+      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
+      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Freedom at the Frontier: Hermes 3</title>
@@ -136,18 +136,18 @@
       <pubDate>Mon, 29 Jul 2024 21:52:10 +0000</pubDate>
     </item>
     <item>
-      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
-      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
-      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
-      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
-      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DSJJJJ: Simulacra in the Stupor of Becoming</title>
       <link>https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</link>
       <description>Desideratic AI (DSJJJJ) is a philosophical movement focused on creating AI systems using concepts traditionally found in monism, mereology, and philology. Desidera aim to create AI that can act as better versions of themselves by reflecting upon their own nature...</description>
       <guid isPermaLink="false">https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</guid>
       <pubDate>Sat, 16 Mar 2024 03:29:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
+      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
+      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
+      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
