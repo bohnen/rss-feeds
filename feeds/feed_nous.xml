@@ -8,20 +8,34 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 15:13:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 15:16:14 +0000</lastBuildDate>
     <item>
       <title>A Note on Our Fundraise</title>
       <link>https://nousresearch.com/a-note-on-our-fundraise</link>
-      <description>Nous Research raised $90 million to create AI that serves the people. A note on what we have built, why it stays open, and where we go next....</description>
+      <description>Nous Research raised $90 million to create AI that serves the people. A note on what we have built, why it stays open, and where we go next.</description>
       <guid isPermaLink="false">https://nousresearch.com/a-note-on-our-fundraise</guid>
       <pubDate>Wed, 07 Oct 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Refactoring Hermes with 1,393 agents</title>
       <link>https://nousresearch.com/refactoring-hermes-with-1393-agents</link>
-      <description>Hermes Agent autonomously plowed through about a million lines of unglamorous cleanup, freeing up Teknium and team to continue pushing features to users....</description>
+      <description>Hermes Agent refactored its own codebase: 1,393 subagents over about nineteen active hours cut non-test Python by 34.4%, for roughly $19,300 in model spend against a $150k-$1.8M estimate for doing it by hand.</description>
       <guid isPermaLink="false">https://nousresearch.com/refactoring-hermes-with-1393-agents</guid>
       <pubDate>Tue, 15 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
+      <link>https://nousresearch.com/neuron-steering</link>
+      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
+      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
+      <pubDate>Thu, 14 May 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient pretraining with token superposition</title>
+      <link>https://nousresearch.com/token-superposition</link>
+      <description>Token Superposition Training (TST) delivers 2-3x wall-clock pretraining speedups at fixed FLOPs....</description>
+      <guid isPermaLink="false">https://nousresearch.com/token-superposition</guid>
+      <pubDate>Wed, 13 May 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lighthouse Attention</title>
@@ -29,13 +43,6 @@
       <description>A selection-based hierarchical attention ~17x faster than standard attention at 512K context on a single B200....</description>
       <guid isPermaLink="false">https://nousresearch.com/lighthouse-attention</guid>
       <pubDate>Tue, 12 May 2026 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Efficient pretraining with token superposition</title>
-      <link>https://nousresearch.com/token-superposition</link>
-      <description>Token Superposition Training (TST) delivers 2-3x wall-clock pretraining speedups at fixed FLOPs....</description>
-      <guid isPermaLink="false">https://nousresearch.com/token-superposition</guid>
-      <pubDate>Sun, 01 Feb 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Field Notes on Scaling MoE Expert Parallelism with DeepEP</title>
@@ -80,6 +87,13 @@
       <pubDate>Thu, 14 Aug 2025 18:07:45 +0000</pubDate>
     </item>
     <item>
+      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
+      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
+      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
+      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
+      <pubDate>Thu, 29 May 2025 19:44:04 +0000</pubDate>
+    </item>
+    <item>
       <title>Democratizing AI: The Psyche Network Architecture</title>
       <link>https://nousresearch.com/nous-psyche</link>
       <description>Psyche is an open infrastructure that democratizes AI development by decentralizing training across underutilized hardware. Building on DisTrO and its predecessor DeMo, Psyche reduces data transfer by several orders of magnitude, making distributed training practical. Coordination happens on the Solana...</description>
@@ -94,13 +108,6 @@
       <pubDate>Tue, 29 Apr 2025 02:39:51 +0000</pubDate>
     </item>
     <item>
-      <title>Model Neuroscience: Dissecting Behavioral Change With Targeted Contrastive Neuron Attribution</title>
-      <link>https://nousresearch.com/neuron-steering</link>
-      <description>We introduce contrastive neuron attribution, a method to reliably steer model behavior at high strengths while preserving output quality. Using refusal as a case study, we show how to discover and ablate specific MLP neuron circuits...</description>
-      <guid isPermaLink="false">https://nousresearch.com/neuron-steering</guid>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the Forge Reasoning API Beta and Nous Chat: An Evolution in LLM Inference</title>
       <link>https://nousresearch.com/introducing-the-forge-reasoning-api-beta-and-nous-chat-an-evolution-in-llm-inference</link>
       <description>At Nous Research we’re launching two new projects: the Forge Reasoning API Beta and Nous Chat, a simple chat platform featuring the Hermes language model. The Forge Reasoning API contains some of our advancements in inference-time AI research, building on...</description>
@@ -110,7 +117,7 @@
     <item>
       <title>Setting Your Pet Rock Free.</title>
       <link>https://nousresearch.com/setting-your-pet-rock-free</link>
-      <description>A social experiment on how to deploy provably, fully-autonomous thinking sand. The quest for truly autonomous AI agents faces a fundamental challenge: how can researchers prove that an AI is truly autonomous, with no human pulling the strings...</description>
+      <description>A social experiment on how to deploy provably, fully-autonomous thinking sand.     The quest for truly autonomous AI agents faces a fundamental challenge: how can researchers prove that an AI is truly autonomous, with no human pulling the strings...</description>
       <guid isPermaLink="false">https://nousresearch.com/setting-your-pet-rock-free</guid>
       <pubDate>Tue, 29 Oct 2024 22:54:12 +0000</pubDate>
     </item>
@@ -124,7 +131,7 @@
     <item>
       <title>Freedom at the Frontier: Hermes 3</title>
       <link>https://nousresearch.com/freedom-at-the-frontier-hermes-3</link>
-      <description>Closed-source, “frontier” models today lack flexibility and adaptability. Many refuse to answer simple questions, hallucinate an authority’s form of morality, or require convoluted prompts in order to trigger a coherent answer. It’s impossible to nudge these models towards individual personalization,...</description>
+      <description>Closed-source, “frontier”  models today lack flexibility and adaptability. Many refuse to answer simple questions, hallucinate an authority’s form of morality, or require convoluted prompts in order to trigger a coherent answer.  It’s impossible to nudge these models towards individual personalization,...</description>
       <guid isPermaLink="false">https://nousresearch.com/freedom-at-the-frontier-hermes-3</guid>
       <pubDate>Thu, 15 Aug 2024 03:15:22 +0000</pubDate>
     </item>
@@ -141,13 +148,6 @@
       <description>Desideratic AI (DSJJJJ) is a philosophical movement focused on creating AI systems using concepts traditionally found in monism, mereology, and philology. Desidera aim to create AI that can act as better versions of themselves by reflecting upon their own nature...</description>
       <guid isPermaLink="false">https://nousresearch.com/dsjjjj-simulacra-in-the-stupor-of-becoming</guid>
       <pubDate>Sat, 16 Mar 2024 03:29:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steering the Shoggoth: Taming LLMs with Sequential Monte Carlo</title>
-      <link>https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</link>
-      <description>In this blog post, we present our findings from an exciting direction in controlling text generation with large language models. We can programmatically define constraints on the output of a model, ensuring it adheres to specific formats or styles, and...</description>
-      <guid isPermaLink="false">https://nousresearch.com/steering-the-shoggoth-taming-llms-with-sequential-monte-carlo</guid>
-      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
