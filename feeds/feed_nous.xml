@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 15:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 15:08:34 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Arete-27B: Qwen3.8-27B Post-Trained To Reinforce Western Values</title>
+      <link>https://nousresearch.com/arete</link>
+      <description>We post-trained Alibaba's Qwen3.8-27B to reinforce Western values on a Chinese-trained model, and measured what changed with an 803-prompt eval across seven value categories.</description>
+      <guid isPermaLink="false">https://nousresearch.com/arete</guid>
+      <pubDate>Fri, 06 Nov 2026 15:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A Note on Our Fundraise</title>
       <link>https://nousresearch.com/a-note-on-our-fundraise</link>
